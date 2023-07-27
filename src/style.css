@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 90%);
+  border-color:#2d3a40;
+}
+
+h4 {
+  text-transform: capitalize;
+}
+
+lu {
+  display: block;
+  text-align: left;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+button {
+  padding: 7px 20px;
+  background-color: #007692;
+  border-radius: 10%;
+}
+
+.card-body {
+  border-radius: 3%;
+  background: #005792;
+  border-color:#2d3a40;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.date {
+  font-size: 20px;
+}
