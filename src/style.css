@@ -21,7 +21,13 @@ li {
 button {
   padding: 7px 20px;
   background-color: #007692;
-  border-radius: 10%;
+  border-radius: 50%;
+}
+
+img {
+       vertical-align: left;
+       max-width: 70px;
+       padding: 0;
 }
 
 .card-body {
