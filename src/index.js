@@ -11,6 +11,10 @@ function showWeather(response) {
   let h3 = document.querySelector("h3");
   h3.innerHTML = `${temperature}°C`;
 
+  let icon = response.data.weather[0].icon;
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute("src", `https://openweathermap.org/img/wn/${icon}@2x.png`)
+
   let description = response.data.weather[0].description;
   let descriptionElement = document.querySelector(".description");
   descriptionElement.innerHTML = description;
