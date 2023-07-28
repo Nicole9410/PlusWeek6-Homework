@@ -41,6 +41,11 @@ img {
   font-size: 35px;
 }
 
+.units {
+  line-height: 5px;
+  font-size:small;
+}
+
 .date {
   font-size: 20px;
 }
